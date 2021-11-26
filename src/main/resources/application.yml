@@ -1,0 +1,15 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: configuration-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nightfox8/olx-config
+          username: nightfox8
+          password: Hardik@48113227
+          default-label: main
+          clone-on-start: true
