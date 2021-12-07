@@ -11,5 +11,5 @@ spring:
           uri: https://github.com/nightfox8/olx-config
           username: nightfox8
           password: Hardik@48113227
-          default-label: main
+          default-label: master
           clone-on-start: true
